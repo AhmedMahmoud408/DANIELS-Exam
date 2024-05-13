@@ -1,0 +1,999 @@
+/*!Global Classes */
+body{
+    font-family: "Montserrat", sans-serif;
+}
+html {
+    scroll-padding-top: 85px;
+}
+:root{
+    --main-bg-color:#F7F7F7;
+}
+/*! Navbar */
+.navbar .nav-link {
+    color: black;
+}
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/*! Header */
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/bg.jpg);
+   
+    background-size: cover;
+    background-attachment: fixed;
+}
+header h4:after {
+    content: "|";
+    animation-name: typing;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    font-weight: bolder;
+}
+
+@keyframes typing {
+
+    0% {
+        content: "|";
+    }
+
+    1% {
+        content: " D|";
+    }
+
+    2% {
+        content: " De|";
+    }
+
+    3% {
+        content: " Des|";
+    }
+
+    4% {
+        content: " Desi|";
+    }
+
+    5% {
+        content: " Desig|";
+    }
+
+    6% {
+        content: " Design|";
+    }
+
+    7% {
+        content: " Designe|";
+    }
+
+    8% {
+        content: " Designer|";
+    }
+
+    9% {
+        content: " Designer|";
+    }
+
+    10% {
+        content: " Designer|";
+    }
+
+    11% {
+        content: " Designer|";
+    }
+
+    12% {
+        content: " Designe|";
+    }
+
+    13% {
+        content: " Design|";
+    }
+
+    14% {
+        content: " Desig|";
+    }
+
+    15% {
+        content: " Desi|";
+    }
+
+    16% {
+        content: " Des|";
+    }
+
+    17% {
+        content: " De|";
+    }
+
+    18% {
+        content: " D|";
+    }
+
+    19% {
+        content: " |";
+    }
+
+    20% {
+        content: "|";
+    }
+
+    21% {
+        content: "D|";
+    }
+
+    22% {
+        content: "De|";
+    }
+
+    23% {
+        content: "Dev|";
+    }
+
+    24% {
+        content: "Deve|";
+    }
+
+    25% {
+        content: "Devel|";
+    }
+
+    26% {
+        content: "Develo|";
+    }
+
+    27% {
+        content: "Develop|";
+    }
+
+    28% {
+        content: "Develope|";
+    }
+
+    29% {
+        content: "Developer|";
+    }
+
+    30% {
+        content: "Developer|";
+    }
+
+    31% {
+        content: "Developer|";
+    }
+
+    32% {
+        content: "Developer|";
+    }
+
+    33% {
+        content: "Develope|";
+    }
+
+    33% {
+        content: "Develop|";
+    }
+
+    35% {
+        content: "Develop|";
+    }
+
+    36% {
+        content: "Develo|";
+    }
+
+    37% {
+        content: "Devel|";
+    }
+
+    38% {
+        content: "Deve|";
+    }
+
+    39% {
+        content: "Dev|";
+    }
+
+    40% {
+        content: "De|";
+    }
+
+    41% {
+        content: "D|";
+    }
+
+    42% {
+        content: "|";
+    }
+
+    43% {
+        content: "|";
+    }
+
+    44% {
+        content: "|";
+    }
+
+    45% {
+        content: "L|";
+    }
+
+    46% {
+        content: "La|";
+    }
+
+    47% {
+        content: "Lar|";
+    }
+
+    48% {
+        content: "Larr|";
+    }
+
+    49% {
+        content: "Larry|";
+    }
+
+    50% {
+        content: "Larry |";
+    }
+
+    51% {
+        content: "Larry D|";
+    }
+
+    52% {
+        content: "Larry Da|";
+    }
+
+    53% {
+        content: "Larry Dan|";
+    }
+
+    54% {
+        content: "Larry Dani|";
+    }
+
+    55% {
+        content: "Larry Danie|";
+    }
+
+    56% {
+        content: "Larry Daniel|";
+    }
+
+    57% {
+        content: "Larry Daniels|";
+    }
+
+    58% {
+        content: "Larry Daniels|";
+    }
+
+    59% {
+        content: "Larry Daniels|";
+    }
+
+    60% {
+        content: "Larry Daniel|";
+    }
+
+    61% {
+        content: "Larry Danie|";
+    }
+
+    62% {
+        content: "Larry Dani|";
+    }
+
+    63% {
+        content: "Larry Dan|";
+    }
+
+    64% {
+        content: "Larry Da|";
+    }
+
+    65% {
+        content: "Larry D|";
+    }
+
+    66% {
+        content: "Larry|";
+    }
+
+    67% {
+        content: "Larr|";
+    }
+
+    68% {
+        content: "Lar|";
+    }
+
+    69% {
+        content: "La|";
+    }
+
+    70% {
+        content: "L|";
+    }
+    71% {
+        content: "L|";
+    }
+    72% {
+        content: "|";
+    }
+}
+/*! About section */
+.progress{
+    height: 23px;
+}
+.hero-img::after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.about-button a{
+    text-decoration: none;
+    color: white;
+}
+.about-button button{
+    height: 40px;
+    width: 120px;
+    font-size: 0.75rem;
+}
+.btn1 button{
+    background-color: #1C1C1C;
+    color: white;
+    border: 2px solid #1C1C1C;
+    border-radius: 5px;
+}
+.btn1 button:hover {
+    background-color: white;
+    color: #1C1C1C;
+    
+}
+.btn1 button:hover a {
+
+    color: #1C1C1C;
+    
+}
+.btn2 button{
+    background-color: white;
+    color: #1C1C1C;
+    border: 2px solid #1C1C1C;
+    border-radius: 5px;
+}
+.btn2 button a{
+    color: #1C1C1C;
+}
+.btn2 button:hover {
+    background-color:#1C1C1C;
+    color: white;
+    
+}
+.btn2 button:hover a {
+
+    color: white;
+    
+}
+.progress{
+    height: 25px;
+}
+.progress-bar{
+    background-color:#1C1C1C;
+}
+/*!servies section*/
+#services{
+    background-color: var(--main-bg-color);
+}
+.icon_circle{
+    height: 70px;
+    width: 70px;
+    border:solid 1px transparent;
+    border-radius: 50%;
+    margin: auto auto;
+    text-align: center;
+    background-color: #f4f4f4;
+    font-size: 40px;
+    }
+.icon_color:hover .icon_circle{
+        background-color: black;
+        color: white;
+    }
+.section-bg h3{
+        text-align: center;
+        z-index: 1;
+        width: fit-content;
+        margin: auto;
+    }
+.section-bg h3::after {
+        content: "";
+        width: 100%;
+        height: 30px;
+        background-image: url(../imgs/dots.png);
+        background-repeat: repeat;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        z-index: -1;
+
+    }
+/*!Portfolio section*/
+.nav-pills .nav-link {
+        color: black;
+}
+.nav-pills .nav-link.active {
+    border: transparent;
+    background-color: transparent;
+    border-bottom: solid 2px black;
+    border-radius: 0;
+}
+.layer {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: 1s all;
+    margin: 5px;
+}
+
+.inner-layer {
+    transform: translateY(200px);
+    transition: 1s all;
+}
+
+.col-inner:hover .layer {
+    opacity: 1;
+}
+
+.col-inner:hover .inner-layer {
+    transform: translateY(0);
+}
+.inner-layer a {
+    text-decoration: none;
+}
+.inner-layer a .fa-circle{
+    color: black;
+}
+.inner-layer a :hover .fa-circle{
+    color: white;
+}
+.inner-layer a  .fa-link{
+    color: white;
+}
+
+.inner-layer a :hover .fa-link{
+    color: black;
+}
+.inner-layer a  .fa-magnifying-glass-plus{
+    color: white;
+}
+.inner-layer a :hover .fa-magnifying-glass-plus{
+    color: black;
+}
+/*!Clients section*/
+#clients{
+    background-color: var(--main-bg-color);
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #748182;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #748182;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    background-color: #343434;
+    border-color: #343434;
+}
+/*!work complete section*/
+
+@keyframes counting-big {
+    1% {
+        content: "100";
+    }
+
+    2% {
+        content: "150";
+    }
+
+    3% {
+        content: "200";
+    }
+
+    4% {
+        content: "250";
+    }
+
+    5% {
+        content: "300";
+    } 
+    6% {
+        content: "350";
+    } 
+     7% {
+        content: "360";
+    }  
+    8% {
+        content: "400";
+    }  
+    9% {
+        content: "420";
+    }  
+    10% {
+        content: "450";
+    }
+    11% {
+        content: "460";
+    } 
+    12% {
+        content: "480";
+    } 
+    13% {
+        content: "500";
+    } 
+    14% {
+        content: "520";
+    }  
+    15% {
+        content: "560";
+    } 
+    16% {
+        content: "580";
+    } 
+    17% {
+        content: "600";
+    } 
+    18% {
+        content: "620";
+    } 
+    19% {
+        content: "640";
+    } 
+    20% {
+        content: "660";
+    } 
+    21% {
+        content: "680";
+    } 
+    22% {
+        content: "700";
+    } 
+    23% {
+        content: "720";
+    } 
+    24% {
+        content: "740";
+    } 
+    25% {
+        content: "760";
+    } 
+    26% {
+        content: "780";
+    } 
+    27% {
+        content: "800";
+    } 
+    28% {
+        content: "820";
+    } 
+    29% {
+        content: "840";
+    } 
+    30% {
+        content: "850";
+    } 
+
+}
+@keyframes counting-big2 {
+    1% {
+        content: "100";
+    }
+
+    2% {
+        content: "500";
+    }
+
+    3% {
+        content: "1000";
+    }
+
+    4% {
+        content: "1500";
+    }
+
+    5% {
+        content: "2000";
+    } 
+    6% {
+        content: "2500";
+    } 
+     7% {
+        content: "3000";
+    }  
+    8% {
+        content: "3500";
+    }  
+    9% {
+        content: "4000";
+    }  
+    10% {
+        content: "4500";
+    }
+    11% {
+        content: "5000";
+    } 
+    12% {
+        content: "5500";
+    } 
+    13% {
+        content: "6000";
+    } 
+    14% {
+        content: "6500";
+    }  
+    15% {
+        content: "7000";
+    } 
+    16% {
+        content: "7200";
+    } 
+    17% {
+        content: "7500";
+    } 
+    18% {
+        content: "7900";
+    } 
+    19% {
+        content: "8000";
+    } 
+    20% {
+        content: "8200";
+    } 
+    21% {
+        content: "8400";
+    } 
+    22% {
+        content: "8600";
+    } 
+    23% {
+        content: "8800";
+    } 
+    24% {
+        content: "9000";
+    } 
+    25% {
+        content: "9100";
+    } 
+    26% {
+        content: "9200";
+    } 
+    27% {
+        content: "9300";
+    } 
+    28% {
+        content: "9350";
+    } 
+    29% {
+        content: "9400";
+    } 
+    30% {
+        content: "9450";
+    } 
+
+}
+.wo-comp-num h3::after {
+    content: "850";
+    animation-name: counting-big;
+    animation-duration: 3s;
+}
+.li-code h3::after {
+    content: "9450";
+    animation-name: counting-big2;
+    animation-duration: 3s;
+}
+@keyframes counting-small {
+    1% {
+        content: "10";
+    }
+
+    2% {
+        content: "15";
+    }
+
+    3% {
+        content: "20";
+    }
+
+    4% {
+        content: "25";
+    }
+
+    5% {
+        content: "30";
+    } 
+    6% {
+        content: "35";
+    } 
+     7% {
+        content: "40";
+    }  
+    8% {
+        content: "45";
+    }  
+    9% {
+        content: "50";
+    }  
+    10% {
+        content: "55";
+    }
+    11% {
+        content: "60";
+    } 
+    12% {
+        content: "70";
+    } 
+    13% {
+        content: "80";
+    } 
+    14% {
+        content: "90";
+    }  
+    15% {
+        content: "100";
+    } 
+    16% {
+        content: "110";
+    } 
+    17% {
+        content: "120";
+    } 
+    18% {
+        content: "130";
+    } 
+    19% {
+        content: "140";
+    } 
+    20% {
+        content: "150";
+    } 
+    21% {
+        content: "160";
+    } 
+    22% {
+        content: "170";
+    } 
+    23% {
+        content: "180";
+    } 
+    24% {
+        content: "190";
+    } 
+    25% {
+        content: "195";
+    } 
+    26% {
+        content: "200";
+    } 
+    27% {
+        content: "210";
+    } 
+    28% {
+        content: "220";
+    } 
+    29% {
+        content: "225";
+    } 
+    30% {
+        content: "230";
+    } 
+
+}
+@keyframes counting-big3 {
+    1% {
+        content: "100";
+    }
+
+    2% {
+        content: "150";
+    }
+
+    3% {
+        content: "200";
+    }
+
+    4% {
+        content: "250";
+    }
+
+    5% {
+        content: "300";
+    } 
+    6% {
+        content: "350";
+    } 
+     7% {
+        content: "360";
+    }  
+    8% {
+        content: "400";
+    }  
+    9% {
+        content: "420";
+    }  
+    10% {
+        content: "450";
+    }
+    11% {
+        content: "460";
+    } 
+    12% {
+        content: "480";
+    } 
+    13% {
+        content: "500";
+    } 
+    14% {
+        content: "520";
+    }  
+    15% {
+        content: "560";
+    } 
+    16% {
+        content: "580";
+    } 
+    17% {
+        content: "600";
+    } 
+    18% {
+        content: "620";
+    } 
+    19% {
+        content: "640";
+    } 
+    20% {
+        content: "660";
+    } 
+    21% {
+        content: "680";
+    } 
+    22% {
+        content: "700";
+    } 
+    23% {
+        content: "710";
+    } 
+    24% {
+        content: "720";
+    } 
+    25% {
+        content: "730";
+    } 
+    26% {
+        content: "740";
+    } 
+    27% {
+        content: "750";
+    } 
+    28% {
+        content: "760";
+    } 
+    29% {
+        content: "770";
+    } 
+    30% {
+        content: "780";
+    } 
+
+}
+.com-proj h3::after {
+    content: "230";
+    animation-name: counting-small;
+    animation-duration: 3s;
+}
+.file-dow h3::after {
+    content: "780";
+    animation-name: counting-big3;
+    animation-duration: 3s;
+}
+
+/*! our team section*/
+.our-team{
+    background-color: var(--main-bg-color);
+}
+.team-layer {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: 1s all;
+    margin: 5px;
+}
+
+.team-inner-layer {
+    transform:  scaleX(0);
+    transform-origin: center;
+    transition: 0.5s all;
+}
+
+.team-col-inner img {
+    transition: 1s 0.5s transform;
+}
+
+.team-col-inner:hover .team-layer {
+    opacity: 1;
+    transition-delay: 1s;
+}
+
+.team-col-inner :hover img  {
+    transform: scale(1.1);
+}
+.team-col-inner:hover .team-inner-layer {
+    transform:  scaleX(1);
+    transition-delay: 1s;
+
+}
+.team-inner-layer a{
+    text-decoration: none;
+}
+.team-inner-layer .fa-circle{
+    color: black;
+}
+.team-inner-layer .fa-stack:hover .fa-circle{
+    color: white;
+}
+.team-inner-layer .fa-stack:hover .fa-brands{
+    color: black;
+}
+/*! contact section*/
+.contact-icon .fa-stack .fa-circle{
+    color: #F4F4F4;
+}
+.contact-icon .fa-stack:hover .fa-circle{
+    color: #343434;
+}
+.contact-icon .fa-stack .fa-inverse{
+    color: #343434;
+}
+.contact-icon .fa-stack:hover .fa-inverse{
+    color: #F4F4F4;
+}
+.contact-height{
+    height: 50px;
+}
+.contact-data button{
+    background-color: #1C1C1C;
+    border: 1px solid #1C1C1C;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: #ffff;
+}
+.contact-data button:hover{
+    background-color: #ffff;
+    color: #1C1C1C;
+}
+
+
+/*!footer section*/
+.footer-section{
+    background-color: #1C1C1C;
+    color: #748182;
+    text-align: center;
+    font-size: 12px;
+}
+
+
